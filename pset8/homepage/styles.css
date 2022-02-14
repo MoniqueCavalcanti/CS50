@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+bory {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabeçalho-imagem {
+    max-width:218px;
+    max-height:60px;
+    width: auto;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    gap: 80px;
+}
+
+.nav-item {
+    display: flex;
+    gap: 80px;
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    color: #E5752E;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-pincipal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 140px;
+}
+
+.conteudo-pincipal-escrito-titulo1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #73A9A7;
+    font-weight: 800;
+    font-size: 32px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-pincipal-escrito-titulo2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #006688;
+    font-weight: 800;
+    font-size: 72px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-pincipal-escrito-subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    color: #E5752E;
+    font-weight: 400;
+    font-size: 36px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-pincipal-escrito-botao {
+    background-color: #E5752E;
+    width: 322px;
+    height: 46px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #006688;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo-principal-imagem {
+    width: 350px;
+    height: 386px;
+    margin-left:-350px;
+    margin-top:-100px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #73A9A7;
+    padding-top: 48px;
+    font-family: 'Open Sans', sans-serif;
+    color: #006688;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.conteudo-secundario-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 180px;
+    padding: 30px;
+}
+
+.conteudo-secundario-sub-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-secundario-subtitulo {
+    font-family: 'Open Sans', sans-serif;
+    color: #E5752E;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.conteudo-secundario-imagem {
+    width: 193px;
+    height: 196px;
+}
+
+.rodape {
+    border-top: 0.4px solid #73A9A7;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom:40px;
+}
+
+.rodape-imagem-logo {
+    max-width:258px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+.rodape-areas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.rodape-areas-titulo {
+    font-family: 'Open Sans', sans-serif;
+    color: #006688;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.rodape-areas-paragrafo{
+    font-family: 'Open Sans', sans-serif;
+    color: #E5752E;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.rodape-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.rodape-contato-titulo {
+    font-family: 'Open Sans', sans-serif;
+    color: #006688;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.rodape-contato1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.rodape-contato-imagem {
+    width: 30px;
+    height: 22px;
+}
+
+.rodape-contato-paragrafo {
+    font-family: 'Open Sans', sans-serif;
+    color: #E5752E;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.rodape-contato-imagem-face {
+    width: 34px;
+    height: 31px;
+}
+
+.rodape-contato-imagem-insta {
+    width: 35px;
+    height: 32px;
+}
+
+.rodape-contato-imagem-whats {
+    width: 34px;
+    height: 35px;
+}
